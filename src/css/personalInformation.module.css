@@ -1,7 +1,22 @@
 .workPosition{
     color: grey;
 }
+.personalDetails{
+    display: flex;
+
+}
 .personalDetailsItems{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.personalDetailsItems p{
+    margin: 3px;
+}
+.icons{
+    margin-bottom: -6px;
+    margin-right: 4px;
+}
+.icons:last-child{
+    width: 22px;
+    height: 22px;
 }
