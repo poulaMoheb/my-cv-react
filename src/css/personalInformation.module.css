@@ -1,0 +1,7 @@
+.workPosition{
+    color: grey;
+}
+.personalDetailsItems{
+    display: flex;
+    flex-direction: row;
+}
