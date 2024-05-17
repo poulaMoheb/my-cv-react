@@ -1,11 +1,10 @@
 import { div } from 'react';
 import appStyle from './css/App.module.css';
-import Header from './Header';
-
+import SideContainer from './components/SideContainer';
 function App() {
   return (
     <div className={appStyle.body}>
-    <Header/>
+      <SideContainer />
     </div>
   );
 }
