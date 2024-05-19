@@ -3,9 +3,9 @@ import style from '../css/sectionHeader.module.css'
 
 function SectionHeader(props) {
   return (
-    <div className={style.main}>
-      {props.name}
-    </div>
+    <h3 className={style.main}>
+            {props.name}
+    </h3>
   )
 }
 

@@ -4,7 +4,8 @@ import SideContainer from './components/SideContainer';
 function App() {
   return (
     <div className={appStyle.body}>
-      <SideContainer />
+      <SideContainer position={true}/>
+      <SideContainer position={false}/>
     </div>
   );
 }

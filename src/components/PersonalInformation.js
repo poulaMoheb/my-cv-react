@@ -25,8 +25,8 @@ function PersonalInformation() {
     +201287477770</p>
     </div>  
     <div className={styles.personalDetailsItems}>
-    <p><FaGithub className={styles.icons}/>
-    Github.com/poulaMoheb</p>
+    <p><FaGithub className={styles.icons}/><a href='https://www.Github.com/poulaMoheb'>
+    Github.com/poulaMoheb</a></p>
     </div>  
     </div>
     </>
