@@ -1,12 +1,20 @@
-import { div } from 'react';
-import appStyle from './css/App.module.css';
-import SideContainer from './components/SideContainer';
+import react from 'react';
+import PersonalInformationView from './components/PersonalInformationView';
+import Nav from './components/Nav';
+import style from './css/App.module.css'
+import EducationalInformation from './components/EducationalInformation';
+import PracticalExperience from './components/PracticalExperience';
 function App() {
   return (
-    <div className={appStyle.body}>
-      <SideContainer position={true}/>
-      <SideContainer position={false}/>
+    <>
+    <Nav/>
+    <div className={style.body}>
+    <PersonalInformationView/>
+    <EducationalInformation/>
+    <PracticalExperience/>
+    {/* <button className='primary'>Submit</button> */}
     </div>
+    </>
   );
 }
 

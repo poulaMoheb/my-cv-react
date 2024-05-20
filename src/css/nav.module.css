@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    background-color: rgb(25, 129, 60);
+    padding-left: 10px;
+    border-bottom: 2px solid grey;
+    
+}
+.container h1:first-child{
+
+    font-size: 18px;
+    cursor: unset;
+    color: rgb(47, 56, 94);
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.buttonsContainer :hover{
+    background-color: rgb(26, 26, 53);
+    color: white;
+}
+.buttonsContainer h3{
+    cursor: pointer;
+    align-self: center;
+    padding: 20px;}
+.image{
+    width: 30px;
+}
