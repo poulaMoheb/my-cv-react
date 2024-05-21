@@ -4,14 +4,11 @@
   
 }
 .body{
-  width: 1260px;
   min-height: 86.3vh;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: start ;
+  flex-direction: row;
+  justify-content: space-between ;
   gap:24px;
-  background-color: rgb(33, 57, 85);
 }
 
